@@ -1,0 +1,22 @@
+.nextSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg , #111132 , #111132);    
+    position: relative;
+    color: white;
+    
+    
+}
+
+.nextSection .mountains{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url('../../assets/mountains.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

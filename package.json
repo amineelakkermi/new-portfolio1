@@ -2,8 +2,10 @@
   "name": "new-portfolio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://amineelakkermi.github.io/new",
   "type": "module",
   "scripts": {
+    "deploy": "npm run build && gh-pages -d dist -f",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
